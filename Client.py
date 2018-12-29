@@ -2,8 +2,8 @@ import socket
 import time
 import threading
 
-host = '192.168.8.120'
-port = 5000
+host = '192.168.8.120' #Here you can put your own IP or if the Server is on your computer you can put 127.0.0.1 in threre
+port = 80
 
 server = (host,port)
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
